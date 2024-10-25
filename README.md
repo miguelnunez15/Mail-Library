@@ -1,38 +1,40 @@
 # Mail Library
 
-**Mail Library** es una librer韆 de Python para enviar correos electr髇icos con funcionalidades avanzadas. Facilita el env韔 de correos b醩icos, correos con adjuntos, y correos HTML, adem醩 de soportar configuraciones din醡icas y manejar errores.
+Las funcionalidades son pr谩cticamente nulas pero sirve de pruebas para publicar una liber铆a hecha con poetry y publicada en Pypi.
+
+**Mail Library** es una librer铆a de Python para enviar correos electr贸nicos con funcionalidades avanzadas. Facilita el env铆o de correos b谩sicos, correos con adjuntos, y correos HTML, adem谩s de soportar configuraciones din谩micas y manejar errores.
 
 ## Funcionalidades
 
-- **Configuraci髇 B醩ica de Correo**
-  - Configuraci髇 del servidor SMTP, puerto, y credenciales de autenticaci髇.
-  - Configuraci髇 del remitente.
+- **Configuraci贸n B谩sica de Correo**
+  - Configuraci贸n del servidor SMTP, puerto, y credenciales de autenticaci贸n.
+  - Configuraci贸n del remitente.
 
-- **Env韔 de Correos**
-  - Env韔 de correos b醩icos con asunto y cuerpo (texto o HTML).
-  - Inclusi髇 de archivos adjuntos.
-  - Env韔 de correos a m鷏tiples destinatarios (a, cc, bcc).
+- **Env铆o de Correos**
+  - Env铆o de correos b谩sicos con asunto y cuerpo (texto o HTML).
+  - Inclusi贸n de archivos adjuntos.
+  - Env铆o de correos a m煤ltiples destinatarios (a, cc, bcc).
   - Soporte para correos en formato HTML.
 
 - **Configuraciones Avanzadas**
-  - Cuerpo del correo en HTML con im醙enes embebidas.
-  - Seguridad y autenticaci髇 con TLS/SSL.
-  - Uso de variables de entorno y archivos de configuraci髇 para manejar credenciales y par醡etros.
+  - Cuerpo del correo en HTML con im谩genes embebidas.
+  - Seguridad y autenticaci贸n con TLS/SSL.
+  - Uso de variables de entorno y archivos de configuraci贸n para manejar credenciales y par谩metros.
 
 - **Manejo de Errores y Registro**
   - Registro de actividades y errores.
 
 - **Funcionalidades Adicionales**
   - Plantillas de correo.
-  - Programaci髇 de correos.
+  - Programaci贸n de correos.
   - Seguimiento de correos (opcional).
 
-- **Interfaz de L韓ea de Comandos (CLI)**
+- **Interfaz de L铆nea de Comandos (CLI)**
   - Comandos para enviar correos directamente desde la terminal.
 
-## Instalaci髇
+## Instalaci贸n
 
-Puedes instalar la librer韆 usando `pip`. Ejecuta el siguiente comando en tu terminal:
+Puedes instalar la librer铆a usando `pip`. Ejecuta el siguiente comando en tu terminal:
 
 ```bash
 pip install mail-library
